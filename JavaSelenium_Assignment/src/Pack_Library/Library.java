@@ -10,8 +10,14 @@ public class Library {
 		Student s1=new Student("Reshma", 10, b1);
 		Student s2=new Student("Sachin", 11, b2);
 		
+	
 		s1.displayDetails();
+		s1.issueBook();
+		s1.returnBook();
+		
 		s2.displayDetails();
+		s2.issueBook();
+		s2.returnBook();
 		
 	}
 
