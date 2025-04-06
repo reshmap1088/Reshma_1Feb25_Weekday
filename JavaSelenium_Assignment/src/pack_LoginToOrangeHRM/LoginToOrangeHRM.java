@@ -16,7 +16,7 @@ public class LoginToOrangeHRM {
 	public static void main(String[] args) throws InterruptedException, IOException {
 		// TODO Auto-generated method stub
 
-		WebDriver driver=new ChromeDriver();
+	WebDriver driver=new ChromeDriver();
 	driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		//driver.get("https://www.google.com/");
 	Thread.sleep(5000);	
