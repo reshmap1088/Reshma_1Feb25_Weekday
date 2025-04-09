@@ -1,4 +1,4 @@
-package pack_LoginToOrangeHRM;
+package assignment2OrangeHRM;
 
 import java.io.File;
 import java.io.IOException;
