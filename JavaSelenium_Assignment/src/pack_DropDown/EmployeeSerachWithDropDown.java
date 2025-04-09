@@ -64,7 +64,14 @@ List<WebElement> results = driver.findElements(By.xpath("//div[@class='orangehrm
 //Assert.assertTrue(results.size() > 0, "No search results found!");
 
 
-	
+
+//label[text()='Job Title']//..//following-sibling::div//div[@class='oxd-select-wrapper']//div//following-sibling::div[@role='listbox']
+
+
+
+//label[text()='Job Title']/../following-sibling::div//div[contains(@class,'oxd-select-text oxd-select-text')]/following-sibling::div[contains(@class,'oxd-select-dropdown')]
+
+//label[text()='Job Title']//..//following-sibling::div//div[@class='oxd-select-wrapper']//div//following-sibling::div[@role='listbox']//div
 
 }
 }
